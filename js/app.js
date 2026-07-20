@@ -39,7 +39,7 @@ function addCustomer(){
 
     let li = document.createElement("li");
 
-    li.innerHTML = name + " - " + phone;
+    li.innerHTML = name + " - " + phone + ' <button onclick="this.parentElement.remove()">Delete</button>';
 
     document.getElementById("customerList").appendChild(li);
 
