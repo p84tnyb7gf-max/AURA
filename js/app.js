@@ -61,3 +61,16 @@ function askAI(){
     "</b></p><p>⚠ AI integration is coming soon.</p>";
 
 }
+function searchCustomer(){
+
+    let search = document.getElementById("search").value;
+
+    if(search==""){
+        alert("Please enter a customer name.");
+        return;
+    }
+
+    document.getElementById("searchResult").innerHTML =
+    "🔍 Searching for: <b>" + search + "</b><br>Customer database will be available in Version 2.0.";
+
+}
