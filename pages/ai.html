@@ -1,21 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AURA AI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURA AI Assistant</title>
 <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-<h1>🤖 AURA AI Assistant</h1>
+<header>
+    <h1>🤖 AURA AI Assistant</h1>
+    <p>Your Intelligent Banking Assistant</p>
+</header>
 
-<input type="text" placeholder="Ask AURA something..." style="width:300px;padding:10px;">
+<section>
+
+<h2>Ask AURA</h2>
+
+<input type="text" id="question" placeholder="Type your question here..." style="width:80%;padding:10px;">
 
 <br><br>
 
-<button>Send</button>
+<button onclick="askAI()">Ask AURA</button>
 
-<p>AI integration coming soon...</p>
+<br><br>
+
+<div id="answer">
+<p>💡 Examples:</p>
+
+<ul>
+<li>Calculate a loan</li>
+<li>Show customer information</li>
+<li>Generate a report</li>
+<li>Explain banking terms</li>
+</ul>
+
+</div>
+
+<br>
+
+<a href="dashboard.html">
+<button>⬅ Dashboard</button>
+</a>
+
+</section>
+
+<script src="../js/app.js"></script>
 
 </body>
 </html>
