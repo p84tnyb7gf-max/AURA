@@ -46,3 +46,18 @@ function addCustomer(){
     document.getElementById("name").value = "";
     document.getElementById("phone").value = "";
 }
+function askAI(){
+
+    let question = document.getElementById("question").value;
+
+    if(question==""){
+        alert("Please enter a question.");
+        return;
+    }
+
+    document.getElementById("answer").innerHTML =
+    "<h3>AURA Response</h3><p>Thank you for your question.</p><p><b>" +
+    question +
+    "</b></p><p>⚠ AI integration is coming soon.</p>";
+
+}
