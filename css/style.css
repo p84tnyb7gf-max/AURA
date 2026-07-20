@@ -60,3 +60,14 @@ footer {
     padding: 20px;
     background: #102a4d;
 }
+input{
+    width:250px;
+    padding:10px;
+    border-radius:8px;
+    border:none;
+    font-size:16px;
+}
+
+button{
+    width:250px;
+}
