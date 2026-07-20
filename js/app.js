@@ -9,3 +9,21 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+function calculateLoan() {
+
+    let amount = document.querySelectorAll("input")[0].value;
+    let rate = document.querySelectorAll("input")[1].value;
+    let months = document.querySelectorAll("input")[2].value;
+
+    if(amount=="" || rate=="" || months==""){
+        alert("Please fill all fields.");
+        return;
+    }
+
+    let total = amount * (1 + (rate/100));
+
+    let monthly = total / months;
+
+    alert("Monthly Payment: $" + monthly.toFixed(2));
+
+}
