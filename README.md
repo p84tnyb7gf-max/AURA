@@ -2,18 +2,18 @@
 
 ## AI Banking Assistant
 
-AURA is an AI-powered banking platform designed to improve banking operations using artificial intelligence.
+AURA is an AI-powered banking platform designed to help banks manage customers, loans, reports, and financial operations.
 
 ## Features
 
-- AI Assistant
-- Customer Management
-- Credit Calculator
-- Reports
-- Secure Login
-- Smart Dashboard
+- 🤖 AI Assistant
+- 👤 Customer Management
+- 💳 Credit Calculator
+- 📊 Reports
+- 🔐 Secure Login
+- 📈 Dashboard
 
-## Status
+## Project Status
 
 🚧 Under Development
 
