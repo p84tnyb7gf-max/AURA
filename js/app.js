@@ -27,3 +27,22 @@ function calculateLoan() {
     alert("Monthly Payment: $" + monthly.toFixed(2));
 
 }
+function addCustomer(){
+
+    let name = document.getElementById("name").value;
+    let phone = document.getElementById("phone").value;
+
+    if(name=="" || phone==""){
+        alert("Please fill all fields");
+        return;
+    }
+
+    let li = document.createElement("li");
+
+    li.innerHTML = name + " - " + phone;
+
+    document.getElementById("customerList").appendChild(li);
+
+    document.getElementById("name").value = "";
+    document.getElementById("phone").value = "";
+}
